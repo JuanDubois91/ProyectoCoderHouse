@@ -1,0 +1,443 @@
+.Insumos {
+    .Insumos__h2--SubtituloInsumos {
+        width: 200px;
+	    text-align: center;
+	    border-radius: 5px;
+	    border:1px solid #E33734;
+	    background-color: #E33734;
+	    color: white;
+	    font-size: 2.5rem;
+	    margin: 20px;
+	    padding: 10px;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.Maltas {
+    .Maltas__h3--TituloMaltasBase {
+        color: white;
+	    border:2px #000 solid;
+	    border-radius: 5px;
+	    background-color: #000;
+	    text-align: center;
+	    width: 230px;
+	    font-size: 1.5rem;
+	    margin: 20px;
+        padding: 10px;
+    }
+    .Maltas__h3--TituloMaltaEspec {
+        color: #fff;
+	    border:2px #000 solid;
+	    border-radius: 5px;
+	    background-color: #000;
+	    text-align: center;
+	    width: 230px;
+	    font-size: 1.5rem;
+	    margin: 20px;
+	    padding: 10px;
+    }
+    .Maltas__p--TituloMalta {
+        width: 150px;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 10px 20px;
+        padding: 5px;
+    }
+    .Maltas__img--Foto {
+        margin: 10px 20px;
+    }
+    .Maltas__p--Descripcion {
+        width: 250px;
+	    line-height: 20px;
+	    padding: 5px;
+	    margin: 0 20px;
+    }
+}
+
+.Lupulos {
+    .Lupulos__h3--TituloPrincipalLupulo {
+        width: 230px;
+	    color: #fff;
+	    background-color: #000;
+        border: 2px solid #000;
+        border-radius: 5px;
+        text-align: center;
+	    font-size: 1.5rem;
+	    margin: 20px;
+	    padding: 10px;
+    }
+    .Lupulos__p--TituloLupulo {
+        width: 250px;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 10px 20px;
+        padding: 5px;
+    }
+    .Lupulos__img--Foto {
+        margin: 10px 20px;
+    
+    }
+    .Lupulos__p--Descripcion{
+        width: 250px;
+        line-height: 20px;
+        padding: 5px;
+        margin: 0 20px;
+    }
+
+}
+
+.Levaduras {
+    .Levaduras__h3--TituloLevaduraPrincipal {
+        width: 230px;
+	    color: #fff;
+	    background-color: #000;
+        border: 2px solid #000;
+        border-radius: 5px;
+        text-align: center;
+	    font-size: 1.5rem;
+	    margin: 20px;
+        padding: 10px;
+    }
+    .Levaduras__p--TituloLevadura {
+        width: 220px;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 10px 20px;
+        padding: 5px;
+    }
+    .Levadura__img--Foto {
+        margin: 10px 20px;
+    }
+    .Levadura__p--Descripcion {
+        width: 250px;
+        line-height: 20px;
+        padding: 5px;
+        margin: 0 20px;
+    }
+}
+
+.Azuc-Adj-Adi {
+    .Azuc-Adj-Adi__h3--TituloPrincipal {
+        width: 230px;
+        color: #fff;
+        background-color: #000;
+        border: 2px solid #000;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 20px;
+        padding: 10px;
+    }
+    .Azuc-Adj-Adi__p--TituloAdjunto {
+        width: 230px;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 10px 20px;
+        padding: 5px;
+    }
+    .Azuc-Adj-Adi__img--Foto {
+        margin: 10px 20px;
+    }
+    .Azuc-Adj-Adi__p--Descripcion {
+        width: 250px;
+        line-height: 20px;
+        padding: 5px;
+        margin: 0 20px;
+    }
+}
+
+.Saborizantes {
+    .Saborizantes__h3--TituloPrincipal {
+        width: 230px;
+        color: #fff;
+        background-color: #000;
+        border: 2px solid #000;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 20px;
+        padding: 10px;
+    }
+    .Saborizantes__p--TituloSaborizante {
+        width: 230px;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 10px 20px;
+        padding: 5px;
+    }
+    .Saborizantes__img--Foto {
+        margin: 10px 20px;
+    }
+    .Saborizantes__p--Descripcion {
+        width: 250px;
+        line-height: 20px;
+        padding: 5px;
+        margin: 0 20px;
+    } 
+}
+
+.Equipos {
+   .Equipos__h2--TituloEquiposPrincipal{
+      width: 200px;
+	  text-align: center;
+	  border-radius: 5px;
+	  border:1px solid #E33734;
+	  background-color: #E33734;
+	  color: #fff;
+	  font-size: 2.5rem;
+	  margin: 20px;
+	  padding: 10px;
+   }
+}
+
+.Fermentacion {
+    .Fermentacion__h3--TituloFermentacion {
+       font-size: 1.5rem;
+	   margin: 20px;
+	   padding: 10px;
+	   color: #fff;
+	   border:2px #000 solid;
+	   border-radius: 5px;
+	   background-color: #000;
+	   text-align: center;
+	   width: 230px;
+    }
+    .Fermentacion__p--TituloProductoFermentacion{
+        width: 300px;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 10px 20px;
+        padding: 5px;
+    }
+    
+    .Fermentacion__img--FotoProductoFermentacion {
+        margin: 10px 20px;
+    }
+    .Fermentacion__p--DescripcionProductoFermentacion {
+        width: 200px;
+        line-height: 20px;
+        padding: 5px;
+        margin: 0 20px;
+    }
+}
+
+.Embotellado {
+    .Embotellado__h3--TituloEmbotellado {
+        font-size: 1.5rem;
+        margin: 20px;
+        padding: 10px;
+        color: #fff;
+        border:2px #000 solid;
+        border-radius: 5px;
+        background-color: #000;
+        text-align: center;
+        width: 230px;
+    }
+    .Embotellado__p--TituloProEmbot {
+        width: 250px;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 10px 20px;
+        padding: 5px;
+    }
+    .Embotellado__img--Foto {
+        margin: 10px 20px;
+    }
+    .Embotellado__p--Descripcion {
+        width: 200px;
+        line-height: 20px;
+        padding: 5px;
+        margin: 0 20px;
+    }
+}
+
+.Hervor {
+    .Hervor__h3--TituloHervor {
+        font-size: 1.5rem;
+        margin: 20px;
+        padding: 10px;
+        color: #fff;
+        border:2px #000 solid;
+        border-radius: 5px;
+        background-color: #000;
+        text-align: center;
+        width: 230px;
+    }
+    .Hervor__p--TituloOlla {
+        width: 200px;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 10px 20px;
+        padding: 5px;
+    }
+    .Hervor__img--Foto {
+        margin: 10px 20px;
+    }
+    .Hervor__img--Descripcion{
+        width: 200px;
+        line-height: 20px;
+        padding: 5px;
+        margin: 0 20px;
+    }
+}
+
+.Medicion {
+    .Medicion__h3--TituloMedicion {
+        font-size: 1.5rem;
+        margin: 20px;
+        padding: 10px;
+        color: #fff;
+        border:2px #000 solid;
+        border-radius: 5px;
+        background-color: #000;
+        text-align: center;
+        width: 230px;
+    }
+    .Medicion__p--TituloProductoMedicion {
+        width: 250px;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 10px 20px;
+        padding: 5px;
+    }
+    .Medicion__img--Foto{
+        margin: 10px 20px;
+    }
+    .Medicion__p--Descripcion {
+        width: 250px;
+        line-height: 20px;
+        padding: 5px;
+        margin: 0 20px;
+    }
+}
+
+.Enfriado {
+    .Enfriado__h3--TituloEnfriado {
+        font-size: 1.5rem;
+        margin: 20px;
+        padding: 10px;
+        color: #fff;
+        border:2px #000 solid;
+        border-radius: 5px;
+        background-color: #000;
+        text-align: center;
+        width: 230px;
+    }
+    .Enfriado__p--TituloProductoEnfriado {
+        width: 250px;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 10px 20px;
+        padding: 5px;
+    }
+    .Enfriado__img--Foto {
+        margin: 10px 20px;
+    }
+    .Enfriado__p--Descripcion {
+        width: 250px;
+        line-height: 20px;
+        padding: 5px;
+        margin: 0 20px;
+    }
+}
+
+.Kits {
+    .Kits__p--ParrafoKits {
+        border: 1px solid #FADD5A;
+        border-radius: 5px;
+        margin: 20px;
+        padding: 20px;
+        font-size: 15px;
+        background-color: #FADD5A;
+    }
+    .Kits__h3--TituloPrincipalKits {
+        width: 200px;
+        text-align: center;
+        border-radius: 5px;
+        border:1px solid #E33734;
+        background-color: #E33734;
+        color: #fff;
+        font-size: 2.5rem;
+        margin: 20px;
+        padding: 10px;
+    }
+    .Kits__p--TituloKit {
+        width: 250px;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 10px 20px;
+        padding: 5px;
+    }
+    .Kits__img--ImagenKit {
+        margin: 10px 20px;
+    }
+    .Kits__p--DescripcionKit {
+        width: 250px;
+        line-height: 20px;
+        padding: 5px;
+        margin: 0 20px;
+    }
+}
+
+.Accesorios {
+    .Accesorios__h3--TituloPrincipalAcesorios {
+        width: 220px;
+        text-align: center;
+        border-radius: 5px;
+        border:1px solid #E33734;
+        background-color: #E33734;
+        color: #fff;
+        font-size: 2.5rem;
+        margin: 20px;
+        padding: 10px;
+    }
+    .Accesorios__p--TituloAccesorio {
+        width: 250px;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 10px 20px;
+        padding: 5px;
+    }
+    .Accesorios__img--ImagenAccesorio {
+        margin: 10px 20px;
+    }
+    .Accesorios__P--DescripcionAccesorio {
+        width: 250px;
+        line-height: 20px;
+        padding: 5px;
+        margin: 0 20px;
+    }
+}
+
+.Limpieza {
+    .Limpieza__h3--TituloPrincipalLimpieza {
+        width: 220px;
+        text-align: center;
+        border-radius: 5px;
+        border:1px solid #E33734;
+        background-color: #E33734;
+        color: #fff;
+        font-size: 2.5rem;
+        margin: 20px;
+        padding: 10px;
+    }
+    .Limpieza__p--TituloProductoLipieza {
+        width: 250px;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 10px 20px;
+        padding: 5px;
+    }
+    .Limpieza__img--ImagenProductoLimpieza {
+        margin: 10px 20px;
+    }
+    .Limpieza__p--DescripcionProductoLimpieza {
+        width: 250px;
+        line-height: 20px;
+        padding: 5px;
+        margin: 0 20px;
+    }
+}

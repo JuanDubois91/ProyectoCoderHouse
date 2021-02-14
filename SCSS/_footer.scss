@@ -1,0 +1,34 @@
+.Footer {
+    border-radius: 5px;
+    background-color: #FADD5A;
+    width: 100%;
+}
+
+.RedesSocialesFooter {
+    .RedesSocialesFooter__li--Instagram {
+        list-style-type: none;
+        margin: 10px;
+        padding: 10px;
+        display: inline-block;
+    }
+    .RedesSocialesFooter__li--Facebook {
+        list-style-type: none;
+        margin: 10px;
+        padding: 10px;
+        display: inline-block;
+    }
+    .RedesSocialesFooter__li--Whatsapp {
+        list-style-type: none;
+        margin: 10px;
+        padding: 10px;
+        display: inline-block;
+    }
+}
+
+.ParrafoFooter {
+    width: 100%;
+	text-align: center;
+	font-weight: bold;
+	margin: 10px;
+	padding: 10px;
+}

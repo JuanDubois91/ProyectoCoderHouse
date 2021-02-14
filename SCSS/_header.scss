@@ -1,0 +1,19 @@
+
+.LogoPrincipal {
+	width: 1300px;
+	margin: 10px;
+	padding: 10px;
+	display: inline-block;
+	animation-duration: 3s;
+    animation-name: Logo;
+}
+
+@keyframes Logo {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
