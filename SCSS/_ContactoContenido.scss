@@ -1,10 +1,9 @@
 .DondeEstamos {
     .DondeEstamos__h2--Titulo {
         font-size: 2rem;
-        margin: 20px;
+        margin: 20px 0;
         padding: 10px;
         color: white;
-        border:2px #E33734 solid;
         border-radius: 5px;
         background-color: #E33734;
         text-align: center;
@@ -12,19 +11,19 @@
     }
     .DondeEstamos__p--Informacion {
         line-height: 25px;
-        margin: 20px;
+        margin-right: 20px;
     }
 }
 
 .TituloContacto {
 	font-size: 2rem;
-	margin: 20px;
+	margin: 20px 0;
 	padding: 10px;
 	color: white;
-	border:2px #E33734 solid;
 	border-radius: 5px;
 	background-color: #E33734;
 	text-align: center;
     width: 300px;
 }
+
 

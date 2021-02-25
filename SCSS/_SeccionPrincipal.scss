@@ -1,14 +1,8 @@
-.FotoPrincipal {
-    display: inline-block;
 
-}
-.FotoPrincipal__img--Brirreria{
-    margin: 20px;
-}
 .FotoInsumosEquipos{
-	width: 1300px;
-	margin: 20px;
-	padding: 20px;
+    width: 100%;
+	margin-top: 20px;
+    margin-bottom: 20px;
 	display: inline-block;
 	display: flex;
 	flex-direction: row;
@@ -17,8 +11,9 @@
 .TituloProveedores {
     .TituloProveedores__h2--Titulo {
         font-size: 2rem;
-	    margin: 20px;
+	    /**margin: 20px;**/
 	    padding: 20px;
+        margin-top: 20px;
 	    display: inline-block;
 	    display: flex;
 	    flex-direction: row;
@@ -26,8 +21,9 @@
     }
 }
 .ImagenesProveedores {
-    width: 1300px;
-    margin: 20px;
+    width: 100%;
+    /**margin-top: 20px;**/
+    margin-bottom: 20px;
     .ImagenesProveedores__img--Cargill {
         margin: 10px;
     }

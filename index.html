@@ -15,18 +15,18 @@
   </head>
 <body>
 	<header>
-       <nav class="navbar navbar-expand-lg navbar-light">
+       <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
             <div class="container-fluid">
-                  <a class="navbar-brand" href="#"></a>
+                  <a class="navbar-brand p-2" style="background-color: #FADD5A; font-size: 20px; border-radius: 5px;" href="#">La Birrería</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                   </button>
              <div class="collapse navbar-collapse" id="navbarSupportedContent">
              
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;">
 
                       <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#"><img src="Imagenes/home.png" alt="LogoHome"></a>
+                          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                      </li>
 
                      <li class="nav-item dropdown">
@@ -43,7 +43,7 @@
                      </li>
 
                      <li class="nav-item">
-                          <a class="nav-link" href="TipseInfo.html">Tips e Info</a>
+                          <a class="nav-link" href="TipseInfo.html">Tips-Info</a>
                      </li>
 
                       <li class="nav-item">
@@ -65,61 +65,80 @@
               </div>
            </div>
         </nav>
-
-        <div class="container-fluid">
-          <div class="row">
-    
-            <div class="LogoPrincipal col-sm-12 col-md-12 col-lg-12 d-flex flex-row bd-highlight mb-3 justify-content-center">
-                <h1>
-                  <a href="index.html"><img class="img-fluid" src="Imagenes/marca11.jpg" alt="LogoPrincipal"></a>
-              </h1>
-         </div>
-    
-    </div>
-    </div>
       
-      
-      </header>
+</header>
 
 	 <section>
 
+    
+ <div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12">
+      <div id="carouselExampleIndicators" class="carousel slide mt-5" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                       <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                       <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                       <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                   </ol>
+                     <div class="carousel-inner">
+                           <div class="carousel-item active">
+                              <img src="Imagenes/CoverBirreria.png" class="d-block w-100 img-fluid" width="520px" height="520px" alt="">
+                         </div>              
+                          <div class="carousel-item">
+                              <img src="Imagenes/Horarios.png" class="d-block w-100 img-fluid" width="520px" height="520px" alt="">
+                         </div>
+                          <div class="carousel-item">
+                              <img src="Imagenes/Envios.png" class="d-block w-100 img-fluid" width="520px" height="520px" alt="">
+                         </div>
+                     </div>
+                       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                         <span class="visually-hidden">Previous</span>
+                      </a>
+                       <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                       </a>
+                  </div>
+               </div>
+            </div>
+          </div>
 	 	
 
        <div class="container-fluid">
 		  <div class="row">
 
-		 <div class="FotoPrincipal col-sm-12 col-md-12 col-kg-12 d-flex flex-row bd-highlight mb-3 justify-content-center">
-	        	<img class="FotoPrincipal__img--Brirreria img-fluid" src="Imagenes/FotoProductos.jpeg" alt="FotoPrincipal">
-	       </div>
-
-
-             <div class="FotoInsumosEquipos col-sm-12 col-md-12 col-kg-12 d-flex flex-row bd-highlight mb-3 justify-content-evenly">
-	            <a href="productos-Insumos.html"><img class="img-fluid img-thumbnail" src="Imagenes/InsumosPrincipal.jpg" alt="InsumosPrincipal"></a>
-                <a href="productos-Equipos.html"><img class="img-fluid img-thumbnail" src="Imagenes/EquiposPrincipal.jpg" alt="Equipos"></a>
+		      <div class="col-sm-12 col-md-6 col-lg-6 d-flex flex-row justify-content-center mt-5">
+	             <a href="productos-Insumos.html"><img class="img-fluid" src="Imagenes/InsumosPrincipal.jpg" alt="InsumosPrincipal"></a>
             </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-6 d-flex flex-row justify-content-center mt-5">
+              <a href="productos-Equipos.html"><img class="img-fluid" src="Imagenes/EquiposPrincipal.jpg" alt="Equipos"></a>
+            </div>
+
           </div>
         </div>
 
-          <div class="TituloProveedores col-sm-12 col-md-12 col-kg-12 d-flex flex-row bd-highlight mb-3 justify-content-center">
+          <div class="TituloProveedores col-sm-12 col-md-12 col-lg-12 d-flex flex-row justify-content-center">
 	         <h2 class="TituloProveedores__h2--Titulo">Nuestros Proveedores</h2>
          </div>
 
 	     <div class="ImagenesProveedores container-fluid">
-	         <div class="row d-flex flex-row bd-highlight mb-3 justify-content-evenly align-items-center">
+	         <div class="row d-flex flex-row justify-content-evenly align-items-center">
 	   	         <div class="col-sm-12 col-md-6 col-lg-2">
-                    <img class="img-fluid" class="ImagenesProveedores__img--Cargill" src="Imagenes/Proveedores/Cargill.jpg" alt="Cargill">
+                    <a href="https://www.cargillargentina.com.ar/" target="_BLANK"><img class="img-fluid" class="ImagenesProveedores__img--Cargill" src="Imagenes/Proveedores/Cargill.jpg" alt="Cargill"></a>
                  </div>
-                 <div class="col-sm-12 col-md-6 col-lg-2">
-		            <img class="img-fluid" class="ImagenesProveedores__img--Maltear" src="Imagenes/Proveedores/Maltear.jpg" alt="Maltear">
+              <div class="col-sm-12 col-md-6 col-lg-2">
+		              <a href="http://www.maltear.com/" target="_BLANK"><img class="img-fluid" class="ImagenesProveedores__img--Maltear" src="Imagenes/Proveedores/Maltear.jpg" alt="Maltear"></a>
 		         </div>
 		         <div class="col-sm-12 col-md-6 col-lg-2">
-		             <img class="img-fluid" class="ImagenesProveedores__img--Hopsteiner" src="Imagenes/Proveedores/Hopsteiner.jpg" alt="Hopsteiner">
+		             <a href="https://www.hopsteiner.com/" target="_BLANK"><img class="img-fluid" class="ImagenesProveedores__img--Hopsteiner" src="Imagenes/Proveedores/Hopsteiner.jpg" alt="Hopsteiner"></a>
 		         </div>
 		         <div class="col-sm-12 col-md-6 col-lg-2">
-		             <img class="img-fluid" class="ImagenesProveedores__img--Barthhaasgroup" src="Imagenes/Proveedores/barthhaasgroup.jpg" alt="barthhaasgroup">
+		             <a href="https://www.barthhaas.com/" target="_BLANK"><img class="img-fluid" class="ImagenesProveedores__img--Barthhaasgroup" src="Imagenes/Proveedores/barthhaasgroup.jpg" alt="barthhaasgroup"></a>
 		         </div>
 		         <div class="col-sm-12 col-md-6 col-lg-2">
-		             <img class="img-fluid" class="ImagenesProveedores__img--Lallemand" src="Imagenes/Proveedores/Lallemand.jpg" alt="Lallemand">
+		             <a href="https://www.lallemand.com/" target="_BLANK"><img class="img-fluid" class="ImagenesProveedores__img--Lallemand" src="Imagenes/Proveedores/Lallemand.jpg" alt="Lallemand"></a>
 		         </div>
 	         </div>
           </div>
@@ -130,7 +149,7 @@
        <div class="container-fluid">
          <div class="row">
 
-            <div class="col-sm-12 col-md-12 col-lg-12 d-flex flex-row bd-highlight mb-3 justify-content-center">
+            <div class="col-sm-12 col-md-12 col-lg-12 d-flex flex-row justify-content-center">
 		       <ul class="RedesSocialesFooter">
 			      <li class="RedesSocialesFooter__li--Instagram"><a href="https://www.instagram.com/labirreriainsumos/" target="_BLANK"><img class="img-fluid" src="Imagenes/instagram.png" alt="Instagram"></a></li>
 			      <li class="RedesSocialesFooter__li--Facebook"><a href="https://www.facebook.com/labirreriainsumos/" target="_BLANK"><img class="img-fluid" src="Imagenes/facebook.png" alt="Facebook"></a></li>
